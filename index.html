@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Danyil Zubaryev</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style:    preserve-3d;
+            transform-style:         preserve-3d;
+
+            background:              url('img/back_NY.jpg') no-repeat fixed;
+            background-size:         cover;
+        }
+
+        /**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+        a {
+            background: transparent;
+            text-decoration: none;
+        }
+
+        /**
+         * Improve readability when focused and also mouse hovered in all browsers.
+         */
+
+        a:active,
+        a:hover {
+            outline: 0;
+        }
+
+        /*
+            CONTACTS
+        */
+
+        #contacts {
+            position:          relative;
+            top:               50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform:     translateY(-50%);
+            transform:         translateY(-50%);
+
+            text-align:        center;
+        }
+
+        /*
+            SOCIAL BUTTONS
+        */
+
+        .social {
+            transition: all 0.3s ease;
+        }
+
+        .social:hover, .social:active {
+            opacity: 0.6;
+        }
+
+        /*
+            HELPERS
+        */
+        .responsive {
+            width:     100%;
+            max-width: 500px;
+        }
+
+        /*
+            Ukraine-Europe ribbon
+        */
+        #ribbon {
+            position:   absolute;
+            left:       0;
+            top:        0;
+            width:      90px;
+            height:     90px;
+            background: url('http://stfalcon.github.io/euromaidan/img/em-ribbon.png');
+            z-index:    2013;
+            border:     0;
+        }
+    </style>
+</head>
+<body>
+<div id="contacts">
+
+    <div style="margin: 0 auto;">
+        <a href="mailto:zubarev@karton.me" target="_blank">
+            <img class="responsive" src="img/contacts.png" alt="Send me a message…" title="Press to get in touch">
+        </a>
+    </div>
+    <!--  <div>
+          <a class="button" target="_blank" href="https://karton.me">My business is...</a>
+      </div> --->
+    <div id="social">
+        <a target="_blank" title="LinkedIn"
+           href="https://www.linkedin.com/profile/view?trk=nav_responsive_tab_profile_pic&id=228789028">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABWklEQVRIS+2WS27CMBCGPQEJRa3U9Ai9QTaIBFiUm9Ab0BNUPQFwA24CC2i8zBG4QbNBCKnKdCaSqYkNqJbJitnFsv9vXp4YBFkcx9FDp/MBQTCmz4jXPFiBZbnYHQ6feZ4XUEHCcAnE8yBuSKAQ+W6/H8Gg15tSJJNbQJQmRTaDYZp+e0zXOX8LBlF0J1YIxDkiPvmsmQH6QXyRUm4ZPUySVwGw9JHWOqhYZ9mzLmyJ2IlrRFQivn1JuWC1QZpOqBunTsq1Q7YaCW5J3uez5a2g/0bAjl1zygBRjejMn6ka2dYJ8L7Jspna3U+ScQDAqTamizOIRVUtdcf63W4ctNvcqScwZxCLV6KtVrSWcqXDbNPGGaSL0eVebaQcKZjt/jmD6vdLryEP6scw5NF2tJuAqqlSG2130DHnl2p0T12VpksjSG/fc6NL7WnuV97Y46Sx5xbnsIkH5C8idws+ip2z5QAAAABJRU5ErkJggg=="
+                 alt="LinkedIn"
+                 class="social">
+        </a>
+        <a target="_blank" title="Facebook" href="http://www.facebook.com/dzubarev">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABD0lEQVRIS2NkAAIDAwMBbnb2ekYmpgQgVwAkRgXw4f+/fwu+/vzZeOHChQ+MYEs4OfczAu2jguEYRvxnYLjw9ft3R0Zrc/N+oE8KaGEJzEygzyYw2lhavqdicOFy7weQRUDf0R5QZNH///8P/Pv3byIzE9OHLz9+AOP8wgeQk7E5nmyLQJYcPXHCEVtYUNWiv3//Bh4/dWoDzS368/+/4okTJx7ALCKUqMgOuiPHjwOzHgIQSlSD2KL//xuPnDjRgCtDWFtaFgC92o8uT7qPCFhkY2HRwMDIWE9zi6wtLOYzMjKCCmcUQLqPoNqHUWIY9RE0BEYTAzxvkJO8yarKSbToA/0aJ3RrboECnR4NSABfUb8ve5yq1gAAAABJRU5ErkJggg=="
+                 alt="Facebook"
+                 class="social">
+        </a>
+        <a target="_blank" title="Twitter" href="https://twitter.com/danny_zub">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB3ElEQVRIS9WW4XGCQBCFRRsgHZgKglKApILECpQKYgcxFZh0oBVoB5ICNNeBlmADQN67uWNOIN7BMM6EP4ywt9/te8ueXu9Ol3cnTu9/gMbj8cLzvBlUCZQyIs/zr+PxuNZKIWaeZZmQFfEHbhMExC5SBkHgDwaDvQEoL0sAFHj4yhfI+yhBYRhu+RAv1y4wbGyFSha2TSHfBXEx7r4GcXeRWpikaToVQlzqEqGaIao52SB8r0A+7nEdSAYg7gPVfZYTonrKQQWcLkLomfaoVgoEnZFtAzN3qJCa088l5Hh3oWA9N7tkrARRjn6//4ME/l8JlAyEsVppsu3S1RQgtil+PAE0ty1u8h5eP0OIpABBd7MZmuS6GQvQSEuuPeKHt+qMgESUGv486JzaIx8enW551GITu8PhML0CqYYIANt3BTMbofBIU9XsesHvqEUFxRJ+Fhw7Zo6r6d1VU5SrqVSE76kL+QS8GZUVqZxHCraFV8Om8rHTMEXY0mcrSAdwpmEhR5MTUEH4gcpR5QTi+QTAG4L1gXazOBtEeqR2LhMi+QSLgoYtzmMlrpOr0nWcyHg4c5WJCdRk53Reu3hZbm/6MgGQFUZmAj29cf82jw0XSKW9XRe1ibvb361fruz+x9AEin4AAAAASUVORK5CYII="
+                 alt="Twitter"
+                 class="social">
+        </a>
+        <a target="_blank" title="VK" href="https://vk.com/dzubaryev">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAACVElEQVRIS+WWPWhTURTHe5OYN0gCZslgQPBjSkrSJFgyVDKKVMShi5MgTp0qIn7gIkoHQVF06SAITrWDis4GRUI0MQlJyKatoIKDSnEIaT78nce78Chp3iM2WXxw3z33fN7/OfdLTVlfPB6f8fl8V/r9/lGl1AHNH6XHxwY+3nc6neVqtVoWH0p+iURi0ev13oXcM4rjITZb3W53qVKpPFQWksIYguj4WyCbValUahXOwi4j2e7uqUomk+v/WhOnSZo1A1HfSXE35P9BIOr1hJx+tdI1TX/C3AdKXWi1Wm8Nw/jBkg2xHdZgHxIZ+t+Qr9GbZfB4PDOQx+wpH5S606VS6ZkoRaNRP44/4WQ/wwb8mDamtjegr1vjs8ge7yAz2YMCfcQopY3S6fQSs7sjYxAFGo3GH6Hh34J/VVZUMBg8nMvlOsLPZDKhdrv9GTLohGiq1+udKpfLLyxFg9kXoWM4CNVqtV/Ch7dMd5nNeJJj5qV2yna5TQYu2oPshEj4Xzj3pguFwqYMrNPjPkjntAOOrfPoHCkWi5dsKZuFfkfzug0kqB6B6tx2g2FjUNYE+SAdp300D4pXboNRt2vU7OYogb77/f5YPp//Ocg4m8369CKw5B5q9JwazbtOnVYkhR9YbQvNZnPDbszss8hWWCBn6vW6LBbzC4fDeyORyBvIpF3fKXVaVxDdo60GAoF1ULQI9IA0LdJ+g+A4KZarxvxkEvBfjxLITZnqINwkqIHyQfp94wo0dDJuU+cG0fBAk7z4JnOVT+xxIomdyHNLV3DcD8i/06MhmJbwDrQAAAAASUVORK5CYII="
+                 alt="VK"
+                 class="social">
+        </a>
+        <a target="_blank" title="Google+"
+           href="https://plus.google.com/100058233055787384847/posts">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAB8UlEQVRIS71Wy23CQBDdMRaCcHEqCCWQA5IhSIEOoIJABREVhFQAVACpIKQCOEAwp9ABlOADCA6xN2+MQYDtAOazkuX1aj1v5s2b2SXhjpyu16QQL0SUXK+d85ZSTkmIj75h1NgO5kI86XoLAOVzDAf9C8D2wDAqxJEIordrgGxsSvlOiGZyKbr+iWpKuUwGqbn+cHJ0i3G7iG5GXRAQZNmDGjWS8gvU9vDkkcxnCCcfhmpf6mCwiuSx5DXHKOQ5Wy4biXi8i/XURYC4wLiiEU132+BssbiPR6P5SCTyeREgeF+wLctUVPVnxyDWne89B44F9VDHtA2Gw4ankAEkiVKItu5r/IAjXiA0w/ly+XgXixUVopZr1LSlrOKbQVZ52xv94dCpySBxBdWRCQqbiMCE6jTLtseHchMWaOMvG8im0ylPzrBjbTwoT9vRHewMoKzybRjtrK6X96k7F8iExDsrgZGGuQYax4PRqBoUGe89lTrT/v0tkKq29gsTahzPF4tCIhar+x2SJwE5HQHeB9UK06gIkfQ7KE8CsiyrJBVlrBJN/BLMjoDG1zAH5Y4Y1vS4NbRTM9xkAWDCgeKx3WB7n+co59sLqGk6FKJj82Y48MDzMJE4//ON6GaXE7dtcEcORckRNHYglNLmznDtC+QfdYoFE5EEiOsAAAAASUVORK5CYII="
+                 alt="G+"
+                 class="social">
+        </a>
+    </div>
+</div>
+<a id="ribbon" href="http://stfalcon.github.io/euromaidan/" class="em-ribbon" target="_blank"></a>
+</body>
+</html>
